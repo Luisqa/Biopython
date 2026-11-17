@@ -1,0 +1,14 @@
+{
+  "completed_exercises": [
+    "ex_01_01_gc_content"
+  ],
+  "points": 10,
+  "current_module": 1,
+  "completed_modules": [],
+  "quiz_scores": {},
+  "notes": {},
+  "saved_codes": {
+    "ex_01_01_gc_content": "\n    # 1. Asegúrate de pasar la secuencia a mayúsculas\n    # 2. Si la longitud es 0, retorna 0.0\n    # 3. Cuenta las bases 'G' y 'C'\n    # 4. Calcula el porcentaje y redondéalo a 2 decimales\n    # Tu código aquí:\n        \ndef calcular_gc(secuencia: str) -> float:\n      seq = secuencia.upper()\n      g = seq.count('G')\n      c = seq.count('C')\n      total = len(seq)\n      if not total:\n          return 0.0\n      gc_pct = ((g+c)/total)*100\n      return round (gc_pct, 2)       \n\n        \n        \n            \n           \n        \n"
+  },
+  "sandbox_code": ""
+}
